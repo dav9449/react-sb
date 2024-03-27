@@ -1,0 +1,31 @@
+.counter{
+    height: 160px;
+    background: rgb(190,190,190);
+    background: linear-gradient(90deg, rgba(190,190,190,1) 0%, rgba(236,230,203,1) 42%, rgba(226,217,172,1) 100%);
+    border-radius: 5px;
+    width:395px;
+}
+
+.counter-element{
+    height: 80px;
+    padding: 4px;
+    width: 112px;
+    background-repeat: no-repeat;
+    background-image: url("../../public/png/counter.png");
+    .line{
+        z-index: 200;
+        width: 104px;
+        height: 13px;
+        background-repeat: no-repeat;
+        background-image: url("../../public/png/line.png");  
+    }
+    .number{
+        justify-self: center;
+    }
+    .unit{
+        top: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        justify-content: center;
+    }
+}

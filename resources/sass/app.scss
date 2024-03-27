@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'counter';
+
+body{
+    overflow: hidden;
+}
+.full-screen-h{
+    min-height: 100vh;
+}
+.flex-fill{
+    flex:1 1 auto;
+}
